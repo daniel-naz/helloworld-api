@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "klCnoZ3i0WcObIPOsV32uLGgQqSXW+6A1mKpNZOIkyc=",
+  "Source": "helloworld",
+  "BasePath": "_content/helloworld",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
