@@ -2,8 +2,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet restore ./helloworld.csproj
+RUN dotnet publish ./helloworld.csproj -c Release -o /app/publish /p:UseAppHost=false
 
 # ---- run ----
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
